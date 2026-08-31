@@ -1,0 +1,19 @@
+name = input("Digite o seu nome: ")
+
+
+print(f"Olá {name}, prazer em conhecer")
+
+print("Qual a sua idade?")
+
+age_davi = int(input("Digite sua idade:"))
+
+age_rafael = 20
+
+if age_davi > age_rafael:
+    print("você é mais velho do que eu")
+    
+elif age_davi < age_rafael:
+    print("Você é mais novo do que eu")
+        
+else :
+    print("Você tem a mesma idade que eu ")
