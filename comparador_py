@@ -1,6 +1,0 @@
-sams_age = 16
-too_young = sams_age < 17
-car_driver = sams_age >= 17
-
-print(f"Is Sam too young to drive? {too_young}")
-print(f"Can Sam drive a car? {car_driver}")
